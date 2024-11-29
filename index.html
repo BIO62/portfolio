@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body style="display: flex; flex-direction: column;">
+    <header class="container">
+        <div class="wrapper">
+            <nav>
+                <img onclick="ShowSidebar()" class="hover-btn" src="/image/hover-btn.png" alt="">
+                <div class="logo">
+                    ODKOSHKA
+                </div>
+                <ul class="side-bar">
+                    <div class="side-bar-box">
+                        <li onclick="HideSidebar()" class="side-bar-li">
+                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960"
+                                    width="26px" fill="#e8eaed">
+                                    <path
+                                        d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                                </svg></a>
+                        </li>
+                        <li class="side-bar-li">
+                            <a style="color: #FD6F00;" href="#">Home</a>
+                        </li>
+                        <li class="side-bar-li">
+                            <a href="#">Services</a>
+                        </li>
+                        <li class="side-bar-li">
+                            <a href="#">About me</a>
+                        </li>
+                        <li class="side-bar-li">
+                            <a href="#">Portfolio</a>
+                        </li>
+                        <li class="side-bar-li">
+                            <a href="#">Contact me</a>
+                        </li>
+                    </div>
+                </ul>
+                <ul class="header-navbar">
+                    <li>
+                        <a style="color: #FD6F00;" href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">About me</a>
+                    </li>
+                    <li>
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact me</a>
+                    </li>
+                </ul>
+                <div>
+                    <a href="#" class="btn orange">Hire me</a>
+                </div>
+            </nav>
+            <script>
+                function ShowSidebar() {
+                    const sidebar = document.querySelector('.side-bar')
+                    sidebar.style.display = 'flex'
+                }
+                function HideSidebar() {
+                    const sidebar = document.querySelector('.side-bar')
+                    sidebar.style.display = 'none'
+
+                }
+            </script>
+            <!-- menu end duussan -->
+            <div class="hero-section">
+                <div class="left">
+                    <div class="left-media">
+                        <span>Hi I am</span>
+                        <h4>ODKOSHKA</h4>
+                        <h1>Software Engineer</h1>
+                    </div>
+                    <div class="frame-box">
+                        <img class="Frame" src="/image/Frame 1.png" alt="">
+                        <img class="Frame" src="/image/Frame 2.png" alt="">
+                        <img class="Frame" src="/image/Frame 3.png" alt="">
+                        <img class="Frame" src="/image/Frame 4.png" alt="">
+                    </div>
+                    <div style="display: flex; gap: 24px;">
+                        <a href="#" class="btn orange">Hire me</a>
+                        <a href="#" class="CV">Download CV</a>
+                    </div>
+                    <div class="exper">
+                        <div class="exper-box">
+                            <div class="exper-text">5+</div>
+                            <div class="exper-text-1">Experiences</div>
+                        </div>
+                        <div class="exper-box">
+                            <div class="exper-text">20+</div>
+                            <div class="exper-text-1">Project done</div>
+                        </div>
+                        <div class="exper-box-1">
+                            <div class="exper-text">80+</div>
+                            <div class="exper-text-1">Happy Clients</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <img class="right-img" src="/image/man-blacksuit.png" alt="">
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- <body class="body-section">
+        <div class="wrapper-1">
+            <section class="service">
+                <p class="service-text">Үйлчилгээ</p>
+                <p class="service-text-1">Lorem ipsum dolor sit amet consectetur. Imperdiet convallis blandit felis
+                    ligula aliquam</p>
+                <div class="appdesign">
+                    <div class="app1">
+                        <div class="appbox">
+                            <div class="apprax">
+                                <img class="appbox-img" src="/image/Iconly/Light-Outline/2-User.png" alt="">
+                                <p class="appbox-text">App design</p>
+                            </div>
+                            <p class="appbox-text-1">Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum dolor sit amet
+                                consectetur</p>
+                        </div>
+                        <div class="appbox">
+                            <div class="apprax">
+                                <img class="appbox-img" src="/image/Iconly/Light-Outline/2-User.png" alt="">
+                                <p class="appbox-text">App design</p>
+                            </div>
+                            <p class="appbox-text-1">Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum dolor sit amet
+                                consectetur</p>
+                        </div>
+                        <div class="appbox">
+                            <div class="apprax">
+                                <img class="appbox-img" src="/image/Iconly/Light-Outline/2-User.png" alt="">
+                                <p class="appbox-text">App design</p>
+                            </div>
+                            <p class="appbox-text-1">Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum dolor sit amet
+                                consectetur</p>
+                        </div>
+                    </div>
+                    <div class="app2">
+                        <div class="appbox">
+                            <div class="apprax">
+                                <img class="appbox-img" src="/image/Iconly/Light-Outline/2-User.png" alt="">
+                                <p class="appbox-text">App design</p>
+                            </div>
+                            <p class="appbox-text-1">Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum dolor sit amet
+                                consectetur</p>
+                        </div>
+                        <div class="appbox">
+                            <div class="apprax">
+                                <img class="appbox-img" src="/image/Iconly/Light-Outline/2-User.png" alt="">
+                                <p class="appbox-text">App design</p>
+                            </div>
+                            <p class="appbox-text-1">Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum dolor sit amet
+                                consectetur</p>
+                        </div>
+                        <div class="appbox">
+                            <div class="apprax">
+                                <img class="appbox-img" src="/image/Iconly/Light-Outline/2-User.png" alt="">
+                                <p class="appbox-text">App design</p>
+                            </div>
+                            <p class="appbox-text-1">Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum dolor sit amet
+                                consectetur</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </body> -->
+    <!-- <footer></footer> -->
+    <script src="main.js"></script>
+</body>
+
+</html>
