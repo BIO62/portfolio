@@ -43,6 +43,12 @@
      align-items: flex-end;
  }
 
+ .service {
+     color: white;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+ }
 
  .side-bar {
      display: none;
@@ -63,23 +69,349 @@
  }
 
 
+
+
  nav {
      display: flex;
      justify-content: space-evenly;
      align-items: center;
      position: fixed;
-     width: 100%;
-     top: 20px;
+     width: 100vw;
+     padding: 20px;
+     /* top: 20px; */
      z-index: 100;
-     /* padding-right: 4rem;
-     padding-left: 4rem; */
+     background-color: black;
+
  }
 
- .hover-btn:hover .header-navbar {
-     display: block;
+ .about-img-text-2 {
+     display: none;
+     /* A software engineer, the modern-day architect of digital realms, navigates the ethereal landscapes of code, sculpting intangible structures that shape our technological world. With fingers poised over keyboards like virtuoso pianists, they compose symphonies of logic, their minds a labyrinth of algorithms and solutions. Their canvas is a screen, a vast expanse where lines of code dance in intricate patterns, weaving the fabric of programs and applications. */
+
+     width: 382px;
+     height: 300px;
+
+     font-family: 'Lato';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 190%;
+     /* or 30px */
+     text-align: justify;
+
+     /* Foundation /White/Dark :hover */
+     color: #959595;
+
+
+     /* Inside auto layout */
+     flex: none;
+     order: 0;
+     flex-grow: 0;
+
+ }
+
+ .about-end {
+     display: flex;
+     gap: 69.25px;
+     padding-top: 100px;
+ }
+
+ .about-end-1 {
+     /* Auto layout */
+     display: flex;
      flex-direction: column;
-     top: 20px;
-     transition-duration: 0.4s;
+     align-items: center;
+     padding: 0px;
+     gap: 24px;
+
+     margin: 0 auto;
+     width: 200px;
+     height: 227px;
+
+
+     /* Inside auto layout */
+     flex: none;
+     order: 0;
+     flex-grow: 0;
+
+ }
+
+ #portfolio-section {
+     width: 100%;
+     height: 100%;
+     margin-top: 150px;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .port-text {
+     /* Portfolio */
+     font-family: 'Lato';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 40px;
+     line-height: 48px;
+     /* identical to box height */
+     text-align: justify;
+     letter-spacing: 0.03em;
+
+     /* Foundation /White/Light */
+     color: #FEFEFE;
+
+
+     /* Inside auto layout */
+     flex: none;
+     order: 0;
+     flex-grow: 0;
+
+ }
+
+ .port-btn {
+     display: flex;
+     gap: 24px;
+ }
+
+ .port-btn-1 {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+     width: 100px;
+     height: 54px;
+
+     /* Gradint */
+     background: linear-gradient(94.36deg, #FD6F00 3.1%, #E46400 94.54%);
+     border-radius: 8px;
+
+     font-family: 'Lato';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 160%;
+     /* identical to box height, or 26px */
+     letter-spacing: 0.03em;
+     text-transform: capitalize;
+
+     color: #FFFFFF;
+ }
+
+ .port-btn-2 {
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+     width: 199px;
+     height: 54px;
+
+     background: rgba(255, 255, 255, 0.08);
+     border-radius: 8px;
+
+     /* Inside auto layout */
+     flex: none;
+     order: 1;
+     flex-grow: 0;
+     /* Website design */
+     font-family: 'Lato';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 160%;
+     /* identical to box height, or 26px */
+     text-align: justify;
+     letter-spacing: 0.03em;
+     text-transform: capitalize;
+     /* Foundation /White/Normal :active */
+     color: #C6C6C6;
+ }
+
+ .port-btn-3 {
+     /* Frame 38 */
+
+     /* Auto layout */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+     width: 224px;
+     height: 54px;
+
+     background: rgba(255, 255, 255, 0.08);
+     border-radius: 8px;
+
+     /* Inside auto layout */
+     flex: none;
+     order: 2;
+     flex-grow: 0;
+     /* App mobile design */
+
+     font-family: 'Lato';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 160%;
+     /* identical to box height, or 26px */
+     text-align: justify;
+     letter-spacing: 0.03em;
+     text-transform: capitalize;
+
+     /* Foundation /White/Normal :active */
+     color: #C6C6C6;
+
+ }
+
+ .port-btn-4 {
+     /* Frame 39 */
+
+     /* Auto layout */
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+
+     width: 179px;
+     height: 54px;
+
+     background: rgba(255, 255, 255, 0.08);
+     border-radius: 8px;
+
+     /* Inside auto layout */
+     flex: none;
+     order: 3;
+     flex-grow: 0;
+     font-family: 'Lato';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 160%;
+     /* identical to box height, or 26px */
+     text-align: justify;
+     letter-spacing: 0.03em;
+     text-transform: capitalize;
+
+     /* Foundation /White/Normal :active */
+     color: #C6C6C6;
+ }
+
+ .port-btn-5 {
+     /* Frame 40 */
+
+     /* Auto layout */
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+
+     width: 143px;
+     height: 54px;
+
+     background: rgba(255, 255, 255, 0.08);
+     border-radius: 8px;
+
+     /* Inside auto layout */
+     font-family: 'Lato';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 160%;
+     /* identical to box height, or 26px */
+     text-align: justify;
+     letter-spacing: 0.03em;
+     text-transform: capitalize;
+
+     /* Foundation /White/Normal :active */
+     color: #C6C6C6;
+
+ }
+
+ .port-pro {
+     margin-top: 70px;
+     display: flex;
+     gap: 24px;
+     flex-direction: column;
+ }
+
+ .port-pros {
+
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     padding: 0px;
+
+     width: 415px;
+     height: 473px;
+     border-radius: 16px;
+     /* Inside auto layout */
+     flex: none;
+     order: 0;
+     flex-grow: 0;
+
+ }
+
+ .port-proj {
+     display: flex;
+     gap: 17.5px;
+ }
+
+ .port-img {
+     /* Rectangle 21 */
+     width: 415px;
+     height: 415px;
+     mix-blend-mode: exclusion;
+     border-radius: 28px 28px 0px 0px;
+ }
+
+ .port-img-btn {
+     /* Frame 73 */
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+
+     width: 415px;
+     height: 58px;
+
+     background: rgba(255, 255, 255, 0.08);
+     border-radius: 0px 0px 16px 16px;
+     /* padding-inline: 20px; */
+ }
+
+ .port-img-text {
+     font-family: 'Lato';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 160%;
+     /* identical to box height, or 26px */
+     text-align: justify;
+     letter-spacing: 0.03em;
+     text-transform: capitalize;
+
+     /* Foundation /White/Normal :active */
+     color: #C6C6C6;
+
+
+     /* Inside auto layout */
+     flex: none;
+     order: 0;
+     flex-grow: 0;
+ }
+
+ .port-img-text-1 {
+     font-family: 'Lato';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 160%;
+     /* identical to box height, or 26px */
+     text-align: justify;
+     letter-spacing: 0.03em;
+     text-transform: capitalize;
+
+     /* Foundation /White/Dark :hover */
+     color: #959595;
+
 
  }
 
@@ -88,6 +420,7 @@
          width: 100%;
      }
  }
+
 
  @media (max-width: 600px) {
      .hover-btn {
@@ -116,45 +449,104 @@
          align-items: center;
          justify-content: center;
          min-width: 30vh;
+         padding-left: 40px;
      }
 
      .hero-section .left h1 {
          font-size: calc(1.525rem + 3.3vw);
      }
-     .left span{
-        font-size: calc(1.525rem + 3.3vw);
-     }
-     .left h4{
-        font-size: calc(1.525rem + 3.3vw);
-     }
-     .left-media{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+
+     .left span {
+         font-size: calc(1.525rem + 3.3vw);
      }
 
+     .left h4 {
+         font-size: calc(1.525rem + 3.3vw);
+     }
+
+     .left-media {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+     }
+
+     .right-img {
+         width: 322.25px;
+         height: 484px;
+     }
+
+     .service-text-1 {
+         max-width: 370px;
+     }
+
+     .appdesign {
+         display: flex;
+         flex-direction: column;
+         flex-wrap: wrap;
+     }
+
+     .app1 {
+         display: flex;
+         flex-direction: column;
+         flex-wrap: wrap;
+     }
+
+     .app2 {
+         display: flex;
+         flex-direction: column;
+         flex-wrap: wrap;
+     }
+
+     .le {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+     }
+
+     .about-img-section {
+         flex-wrap: wrap;
+         display: flex;
+         align-items: center;
+         flex-direction: column;
+     }
+
+     .about-img {
+         width: 395.7px;
+         height: 564px;
+     }
+
+     .about-end {
+         flex-wrap: wrap;
+         /* asuuh!!! */
+         /* display: flex;
+        align-items: start; */
+     }
+
+     .about-img-text {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+     }
+
+     .about-img-text-1 {
+         display: none;
+     }
+
+     .about-img-text-2 {
+         display: block;
+     }
+     .port-pro{
+display: none;
+     }
+     .port-btn{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+     }
  }
 
- /* @media (max-width:700px){
-    .hdn-menu{
-        display: block;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
- }
-  */
-
-
- /* #header {
-    width: 1420px;
-    height: 67px;
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
  .btn {
      width: 141px;
      height: 43px;
@@ -178,8 +570,8 @@
 
  .wrapper-1 {
      padding-top: 150px;
-     width: 1429px;
-     height: 862px;
+     width: 100%;
+     height: 100%;
      display: flex;
      justify-content: center;
      background-color: black;
@@ -205,8 +597,6 @@
  .service-text {
      /* Services */
 
-     width: 156px;
-     height: 48px;
 
      font-family: 'Lato';
      font-style: normal;
@@ -346,7 +736,6 @@
  }
 
  nav ul {
-     width: 100%;
      display: flex;
      justify-content: flex-end;
      align-items: center;
@@ -599,9 +988,193 @@
      flex-grow: 0;
  }
 
- .service {
-     color: white;
+ #about {
+     width: 100%;
+     height: 100%;
      display: flex;
-     align-items: center;
      flex-direction: column;
+     align-items: center;
+     padding-top: 100px;
+ }
+
+ .about-text {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .about-text-1 {
+     font-family: 'Lato';
+     font-weight: 700;
+     font-size: 40px;
+     line-height: 48px;
+     /* identical to box height */
+     text-align: justify;
+     letter-spacing: 0.03em;
+     /* Foundation /White/Light */
+     color: #FEFEFE;
+     /* Inside auto layout */
+     flex: none;
+     order: 0;
+     flex-grow: 0;
+
+ }
+
+ .about-text-2 {
+     font-family: 'Lato';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 160%;
+     /* identical to box height, or 32px */
+     text-align: justify;
+     letter-spacing: 0.03em;
+     text-transform: capitalize;
+
+     /* Foundation /White/Dark :active */
+     color: #707070;
+
+
+     /* Inside auto layout */
+     flex: none;
+     order: 1;
+     flex-grow: 0;
+
+ }
+
+ .about-img-section {
+     display: flex;
+     justify-content: space-between;
+     gap: 100px;
+     align-items: center;
+ }
+
+ .about-img {
+     width: 566px;
+     height: 808px;
+ }
+
+ .about-img-text-1 {
+     font-family: 'Lato';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 190%;
+     /* or 38px */
+     text-align: justify;
+     width: 631px;
+     height: 494px;
+     /* Foundation /White/Dark :hover */
+     color: #959595;
+
+
+     /* Inside auto layout */
+     flex: none;
+     order: 0;
+     flex-grow: 0;
+
+ }
+
+ .about-btn {
+     /* Frame 3 */
+
+     /* Auto layout */
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     padding: 12px 30px;
+     gap: 10px;
+
+     width: 224px;
+     height: 48px;
+
+     /* Gradint */
+     background: linear-gradient(94.36deg, #FD6F00 3.1%, #E46400 94.54%);
+     border-radius: 8px;
+
+     /* Inside auto layout */
+     flex: none;
+     order: 1;
+     flex-grow: 0;
+
+ }
+
+ .about-btn-text {
+     font-family: 'Lato';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 20px;
+     line-height: 24px;
+     /* identical to box height */
+     text-align: justify;
+     letter-spacing: 0.03em;
+
+     color: #FFFFFF;
+
+
+     /* Inside auto layout */
+     flex: none;
+     order: 1;
+     flex-grow: 0;
+
+ }
+
+
+
+ .end-text-1 {
+     /* 100% */
+
+
+     font-family: 'Lato';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 30px;
+     line-height: 36px;
+     /* identical to box height */
+
+     /* Gradint */
+     background: linear-gradient(94.36deg, #FD6F00 3.1%, #E46400 94.54%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     background-clip: text;
+     text-fill-color: transparent;
+
+
+     /* Inside auto layout */
+     flex: none;
+     order: 0;
+     flex-grow: 0;
+     margin: 0;
+
+ }
+
+ .end-img {
+     width: 130px;
+     height: 130px;
+ }
+
+ .end-text {
+     text-align: center;
+ }
+
+ .end-text-2 {
+     /* Figma */
+
+     font-family: 'Lato';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 24px;
+     line-height: 29px;
+     /* identical to box height */
+
+     /* Foundation /White/Dark :hover */
+     color: #959595;
+     margin: 0;
+
+     /* Inside auto layout */
+     flex: none;
+     order: 1;
+     flex-grow: 0;
+
  }
